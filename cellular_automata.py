@@ -1,6 +1,6 @@
 
 
-class CA():
+class CA:
     """ 1D cellular automaton """
     
     def __init__(self,size,length=10):

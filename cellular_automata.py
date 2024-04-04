@@ -46,4 +46,5 @@ class CA:
         for row in range(self.length):
             factor = 1 - (row * 0.5 / self.length)
             self.gridHeat[row] = [factor * i for i in self.gridHeat[row]]
-
+if __name__ == '__main__':
+    pass
